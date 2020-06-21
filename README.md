@@ -21,4 +21,5 @@ Then copy it to your datapacks folder or drag and drop it into the datapacks men
 ![Menu Screenshot](https://cdn.discordapp.com/attachments/246729272549441536/724357183994855474/unknown.png)  
 Or run `/datapack enable "file/minecraft-expert-mode-master"` (requires cheats, which may be temporarily enabled using Pause -> Open to LAN -> Allow Cheats)
 
-If you don't see [the menu](https://i.imgur.com/FS8eQ8a.png) upon joining, ensure you have enabled the datapack and tried `/reload`. If you still don't see it and believe it to be an issue with the pack, [file a bug report](https://github.com/lexikiq/minecraft-expert-mode/issues/new).
+If you don't see the below menu upon joining, ensure you have enabled the datapack and tried `/reload`. If you still don't see it and believe it to be an issue with the pack, [file a bug report](https://github.com/lexikiq/minecraft-expert-mode/issues/new).  
+![The Menu Screenshot](https://i.imgur.com/FS8eQ8a.png)
