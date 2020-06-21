@@ -21,7 +21,7 @@ execute if score Health expert.config matches 19 run attribute @s minecraft:gene
 execute if score Health expert.config matches 20 run attribute @s minecraft:generic.max_health base set 20
 # execute unless score Health expert.config matches 1..20 run tellraw @a {"text":"Max health must be within range 1-20 half-hearts!","color":"red","italic":true}
 
-execute if score @s expert._phealth > @s Health expert.config unless score NoAbsorption expert.config matches 1 run effect give @s minecraft:regeneration 2 1 true
-execute if score @s expert._phealth > @s Health expert.config unless score NoAbsorption expert.config matches 1 run effect give @s minecraft:poison 1 1 true
+execute if score @s expert._phealth > Health expert.config unless score NoAbsorption expert.config matches 1 run effect give @s minecraft:regeneration 2 1 true
+execute if score @s expert._phealth > Health expert.config unless score NoAbsorption expert.config matches 1 run effect give @s minecraft:poison 1 1 true
 
 scoreboard players reset @s expert.health
