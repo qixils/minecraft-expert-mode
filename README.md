@@ -1,5 +1,5 @@
 # Minecraft Expert Mode
-Expert Mode is a datapack for Minecraft 1.16 that increases difficulty, provides configurable options for maximum health, and more.
+Expert Mode is a data pack for Minecraft 1.16 that increases difficulty, provides configurable options for maximum health, and more.
 
 ## Changes
 - Difficulty is automatically set to hard (duh)
@@ -16,9 +16,9 @@ A menu is sent when you join which provides configurable options. All of these o
 
 ## Installation
 [Download the repository](https://github.com/lexikiq/minecraft-expert-mode/archive/master.zip) and **extract** the folder within.
-Then copy it to your datapacks folder or drag and drop it into the datapacks menu. Don't forget to enable it from the menu:  
+Then copy it to your datapacks folder or drag and drop it into the data packs menu. Don't forget to enable it from the menu:
 ![Data Pack Menu Screenshot](https://cdn.discordapp.com/attachments/246729272549441536/724357183994855474/unknown.png)
 Or run `/datapack enable "file/minecraft-expert-mode-master"` (requires cheats, which may be temporarily enabled using Pause -> Open to LAN -> Allow Cheats)
 
-If you don't see the below menu upon joining, ensure you have enabled the datapack and tried `/reload`. If you still don't see it and believe it to be an issue with the pack, [file a bug report](https://github.com/lexikiq/minecraft-expert-mode/issues/new).  
+If you don't see the below menu upon joining, ensure you have enabled the data pack and tried `/reload`. If you still don't see it and believe it to be an issue with the pack, [file a bug report](https://github.com/lexikiq/minecraft-expert-mode/issues/new).
 ![Chat Menu Screenshot](https://i.imgur.com/FS8eQ8a.png)
