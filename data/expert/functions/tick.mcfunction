@@ -15,12 +15,15 @@ scoreboard players reset @a expert.absrptn
 execute as @a[scores={expert.regen=1}] run gamerule naturalRegeneration true
 execute as @a[scores={expert.regen=2}] run gamerule naturalRegeneration false
 scoreboard players reset @a expert.regen
+execute as @a[scores={expert.heal=1..}] run effect give @s minecraft:instant_health 3 124 true
+scoreboard players reset @a expert.heal
 
 #> Clear triggers
 scoreboard players enable @a expert.menu
 scoreboard players enable @a expert.health
 scoreboard players enable @a expert.absrptn
 scoreboard players enable @a expert.regen
+scoreboard players enable @a expert.heal
 
 #> Entity Handling
 tag @e[type=!player,tag=!hardprocessed] add hardtoprocess

@@ -3,6 +3,7 @@ scoreboard objectives add expert.health trigger
 scoreboard objectives add expert.menu trigger
 scoreboard objectives add expert.absrptn trigger
 scoreboard objectives add expert.regen trigger
+scoreboard objectives add expert.heal trigger
 
 scoreboard objectives add expert.config dummy
 scoreboard players add Health expert.config 0
