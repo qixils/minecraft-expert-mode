@@ -32,6 +32,7 @@ execute as @e[tag=hardtoprocess] run attribute @s minecraft:generic.follow_range
 execute as @e[tag=hardtoprocess] run attribute @s minecraft:generic.knockback_resistance base set 1.0
 execute as @a run attribute @s minecraft:generic.knockback_resistance base set 1.0
 execute as @e[tag=hardtoprocess,type=zombie] run attribute @s minecraft:zombie.spawn_reinforcements base set 1.0
+execute as @e[tag=hardtoprocess,type=creeper] run data modify entity @s Fuse set value 1s
 tag @e[tag=hardtoprocess] add hardprocessed
 tag @e remove hardtoprocess
 

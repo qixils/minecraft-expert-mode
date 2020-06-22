@@ -7,6 +7,7 @@ Expert Mode is a data pack for Minecraft 1.16 that increases difficulty, provide
 - Knockback has been removed to make it easier for mobs to combo you and harder for you to knock them away.
 - Zombies always try to spawn reinforcements.
 - Lightning creates a lot more fire.
+- Creepers instantly explode.
 
 ### Optional Changes
 A menu is sent when you join which provides configurable options. All of these options default to their vanilla defaults. These changes are global and will apply to all players.
